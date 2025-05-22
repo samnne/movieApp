@@ -11,10 +11,10 @@ const store = configureStore({
 });
 createRoot(document.getElementById("root")).render(
   <StrictMode>
- 
+    <BrowserRouter basename="/movieApp">
       <Provider store={store}>
         <App />
       </Provider>
-    
+    </BrowserRouter>
   </StrictMode>
 );
