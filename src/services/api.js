@@ -1,4 +1,4 @@
-import { API_KEY } from "../config";
+import { API_KEY } from "../../myAPIs.js";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 
