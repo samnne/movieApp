@@ -10,8 +10,8 @@ function App() {
       <NavBar></NavBar>
       <main className="main-content ">
         <Routes>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/favourites" element={<Favorite />}></Route>
+          <Route path="/movieApp/home" element={<Home />}></Route>
+          <Route path="/movieApp/favourites" element={<Favorite />}></Route>
         </Routes>
       </main>
     </div>
